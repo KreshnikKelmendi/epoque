@@ -43,9 +43,8 @@ const MenuInHomePage = () => {
            
          </div>
          <div className='flex mt-8 lg:mt-28'>
-            <p className='text-[19px] font-custom text-justify leading-[25.62px] text-[#201E1F] lg:pl-10 2xl:pl-0'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum quasi minima eveniet omnis cumque aliquam praesentium, 
-                repudiandae sit necessitatibus. Nostrum incidunt blanditiis perferendis voluptates debitis ullam provident ipsum deleniti! Doloribus.
+            <p className='text-[19px] font-custom text-justify tracking-tighter leading-[25.62px] text-[#201E1F] lg:pl-10 2xl:pl-0'>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione voluptatem ad animi in quae delectus tempora ipsam aliquid nulla, aperiam nemo maiores hic voluptatum deleniti amet ducimus adipisci dolorem corrupti.
             </p>
            
          </div>
