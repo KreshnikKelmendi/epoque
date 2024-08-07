@@ -118,7 +118,7 @@ const Category = () => {
         {categories?.map(category => (
           <div key={category.id} className=' mt-6 justify-center items-center flex flex-col'>
             {category.svg}
-            <p className='text-[19px] lg:w-[136px] font-custom mt-6 border-[1px] border-[#8E2209] rounded-[100%] px-6 py-1 lg:p-4 text-center text-[#201E1F]'>{category.title}</p>
+            <p className='text-[19px] lg:w-[136px] font-custom mt-6 border-[1px] border-[#8E2209] rounded-[100%] px-6 py-1 lg:p-4 text-center text-[#201E1F] hover:bg-[#8E2209] hover:text-white hover:duration-500 cursor-pointer'>{category.title}</p>
           </div>
         ))}
       </div>

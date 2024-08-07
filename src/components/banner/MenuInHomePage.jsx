@@ -49,7 +49,7 @@ const MenuInHomePage = () => {
            
          </div>
          <div className='lg:mt-16 lg:pl-10 2xl:pl-0'>
-            <button className='text-[14px] font-custom mt-6 border-[1px] border-[#8E2209] rounded-[100%] px-10 py-4 text-center text-[#201E1F]'>
+            <button className='text-[14px] font-custom mt-6 border-[1px] border-[#8E2209] rounded-[100%] px-10 py-4 text-center text-[#201E1F] hover:bg-[#8E2209] hover:text-white hover:duration-500 hover:scale-110'>
                 SEE MORE
             </button>
          </div>
