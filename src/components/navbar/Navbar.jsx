@@ -49,9 +49,9 @@ const Navbar = () => {
           <li className='m-2 cursor-pointer duration-300 hover:text-black'>
             About
           </li>
-          <li className=' m-2 cursor-pointer duration-300 hover:text-black'>
+          <NavLink to="/contact" className='m-2 cursor-pointer duration-300 hover:text-black'>
             Contact
-          </li>
+          </NavLink>
         </ul>
       </div>
 
@@ -93,8 +93,8 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? 'fixed lg:hidden font-custom1 text-8xl left-0 top-0 w-full h-full bg-[#F4ECE9] ease-in-out duration-500 z-50'
-            : 'ease-in-out w-[100%] duration-500 fixed top-0 bottom-0 left-[-100%]'
+            ? 'fixed lg:hidden font-custom1 text-8xl left-0 top-0 w-full h-full bg-[#F4ECE9] z-50'
+            : 'w-[100%] fixed top-0 bottom-0 left-[-100%]'
         }
       >
         {/* Mobile Logo and Close Icon */}
@@ -136,9 +136,9 @@ const Navbar = () => {
         <li className='p-4 text-center text-[#8E2209] duration-300 hover:text-black cursor-pointer border-gray-600'>
           PLACE
         </li>
-        <li className='p-4 text-center text-[#8E2209] duration-300 hover:text-black cursor-pointer border-gray-600'>
+        <Link onClick={handleNav} to="/contact" className='p-4 text-center text-[#8E2209] duration-300 hover:text-black cursor-pointer border-gray-600'>
           CONTACT
-        </li>
+        </Link>
         </div>
       </ul>
     </div>

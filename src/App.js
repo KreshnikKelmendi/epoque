@@ -5,6 +5,13 @@ import Footer from "./footer/Footer";
 import MenuPage from "./components/pages/MenuPage";
 import MeatPage from "./components/pages/MeatPage";
 import SubMenu from "./components/navbar/SubMenu";
+import BreakfastPage from "./components/pages/BreakfastPage";
+import AppetiserPage from "./components/pages/AppetiserPage";
+import Sallata from "./components/pages/Sallata";
+import BurgersPage from "./components/pages/BurgersPage";
+import Pasta from "./components/pages/Pasta";
+import EpoqueDishesPage from "./components/pages/EpoqueDishesPage";
+import ContactPage from "./components/pages/ContactPage";
 
 
 
@@ -18,6 +25,13 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/menu" element={<MenuPage />} />
             <Route path="/meat" element={<MeatPage />} />
+            <Route path="/breakfast" element={<BreakfastPage />} />
+            <Route path="/appetiser" element={<AppetiserPage />} />
+            <Route path="/sallata" element={<Sallata />} />
+            <Route path="/burgers" element={<BurgersPage />} />
+            <Route path="/pasta" element={<Pasta />} />
+            <Route path="/epoque-dishes" element={<EpoqueDishesPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
           <Footer />
       </BrowserRouter>

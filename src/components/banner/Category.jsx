@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 // Define your categories with SVGs
 const categories = [
   { 
     id: 1, 
-    title: 'MEAT', 
+    title: 'MENGJESI', 
+    link:'/breakfast',
     svg: 
     <svg className='w-52 h-52 lg:w-[195px] lg:h-[289px]' viewBox="0 0 208 290" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_11_111)">
@@ -27,7 +29,8 @@ const categories = [
 
   { 
     id: 2, 
-    title: 'PASTA', 
+    title: 'APPETISER', 
+    link: "/appetiser",
     svg: 
     <svg className='w-52 h-52 lg:w-[195px] lg:h-[289px]' viewBox="0 0 195 289" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_11_121)">
@@ -50,7 +53,8 @@ const categories = [
 
   { 
     id: 3, 
-    title: 'VEGIE', 
+    title: 'SALLATA', 
+    link: "/sallata",
     svg: 
     <svg className='w-52 h-52 lg:w-[195px] lg:h-[289px]' viewBox="0 0 195 289" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_11_149)">
@@ -82,7 +86,8 @@ const categories = [
 
   { 
     id: 4, 
-    title: 'DRINKS', 
+    title: 'BURGERS & PANINI', 
+    link: "/burgers",
     svg: 
     <svg className='w-52 h-52 lg:w-[195px] lg:h-[289px]' viewBox="0 0 195 289" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_11_172)">
@@ -111,14 +116,32 @@ const categories = [
 ];
 
 const Category = () => {
+  const [scrollPosition, setScrollPosition] = useState({ x: 0, y: 0 });
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition({ x: window.pageXOffset, y: window.pageYOffset });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
     <div className='2xl:mt-[-100px] overflow-hidden mt-16 lg:mt-16 justify-center items-center flex flex-col'>
       <p className='text-8xl lg:text-[150px] font-custom1 text-center text-[#8E2209]'>CATEGORY</p>
       <div className='grid grid-cols-2 lg:grid-cols-4 gap-y-8 lg:gap-y-0 lg:gap-x-32 mt-6 lg:mt-16'>
         {categories?.map(category => (
-          <div key={category.id} className=' mt-6 justify-center items-center flex flex-col'>
+          <div key={category.id} className='mt-6 justify-center items-center flex flex-col'>
             {category.svg}
-            <p className='text-[19px] lg:w-[136px] font-custom mt-6 border-[1px] border-[#8E2209] rounded-[100%] px-6 py-1 lg:p-4 text-center text-[#201E1F] hover:bg-[#8E2209] hover:text-white hover:duration-500 cursor-pointer'>{category.title}</p>
+            <Link onClick={handleClick} to={category.link}>
+             <p className='lg:text-[19px] lg:w-[136px] font-custom mt-6 border-[1px] border-[#8E2209] rounded-[100%] px-6 py-2 lg:p-4 text-center text-[#201E1F] hover:bg-[#8E2209] hover:text-white hover:duration-500 cursor-pointer'>{category.title}</p>
+            </Link>
           </div>
         ))}
       </div>
