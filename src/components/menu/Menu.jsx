@@ -88,10 +88,10 @@ const Menu = () => {
             <div className='text-8xl pt-6 lg:text-[150px] font-custom1 text-[#8E2209] lg:ml-80 2xl:ml-96 uppercase'>
               <p>{item.title}</p>
               {subItemChunks.map((chunk, chunkIdx) => (
-                <div key={chunkIdx} className='flex flex-col lg:flex-row lg:space-x-4 py-[2px]'>
+                <div key={chunkIdx} className='flex flex-col lg:flex-row lg:space-x-2 lg:py-[2px]'>
                   {chunk.map((subItem, idx) => (
                     <ul key={idx} className='list-none'>
-                      <li className='text-base lg:text-[19px] uppercase font-custom text-[#11141C]'>
+                      <li className='text-base lg:text-[15px] 2xl:text-[19px] uppercase font-custom text-[#11141C]'>
                         {subItem}
                         {/* Hide the separator on small screens */}
                         {idx !== chunk.length - 1 && (

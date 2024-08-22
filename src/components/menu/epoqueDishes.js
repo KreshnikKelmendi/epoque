@@ -4,118 +4,100 @@ const epoqueDishes = [
     { 
       id: 1, 
       category: 'EPOQUE DISHES', 
-      title: "Shpatull pule salce indiane , tagliatelle.", 
-      subItems: ["Croissant", "French toast", "Egg benedict", 'Croissant me omlet francez', 'Skanderbeg'], 
+      title: "Pulë Masala & Tagliatelle", 
+      subItems: ["Shpatull pule me salcë te kuqe, e shërbyer me tagliatelle dhe parmixhan"], 
       image: image1, 
-      price: "11.99"
+      price: "4.90"
     },
 
     { 
       id: 2, 
       category: 'EPOQUE DISHES',
-      title: "Crunchy pule gjalpe kikiriku , rizoto", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      title: "Pulë Crunchy & Tagliatelle", 
+      subItems: ["Mish pule krokant, i shoqëruar me salcë jogurti dhe tagliatelle."], 
       image: image1, 
-      price: "11.99"
+      price: "4.50"
     },
 
     { 
       id: 3, 
       category: 'EPOQUE DISHES', 
-      title: "Sote pule baby spinaq", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      title: "Pulë Crunchy & Risotto", 
+      subItems: ["Mish pule krokant, i shoqëruar me gjalp kikiriku dhe risotto curry"], 
       image: image1, 
-      price: "11.99"
+      price: "5.00"
     },
 
     { 
       id: 4, 
       category: 'EPOQUE DISHES', 
-      title: "Pule Mediterian ne furre", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      title: "Pulë Mediterane me Oriz dhe Mozarella", 
+      subItems: ["Mish pule dhe oriz basmati të pjekur në furrë me domate të freskëta, djathë mozarella dhe salcë borziloku"], 
       image: image1, 
-      price: "11.99"
+      price: "6.50"
     },
 
     { 
       id: 5, 
       category: 'EPOQUE DISHES', 
-      title: "Crunchy pule salce jogurti , tagliatelle", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      title: "Pulë Sauté me Spinaq", 
+      subItems: ["Copëza të mishit të pulës me spinaq të freskët, i shoqëruar me salcë kremoze me këpurdha, spec të kuq dhe parmixhan"], 
       image: image1, 
-      price: "11.99"
+      price: "6.50"
     },
 
     { 
       id: 6, 
       category: 'EPOQUE DISHES', 
-      title: "Mish viqi perime kepurdha", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      title: "Mish Viçi me Këpurdha", 
+      subItems: ["Mish viçi i gatuar me këpurdha të freskëta dhe verë të bardhë."], 
       image: image1, 
-      price: "11.99"
+      price: "7.90"
     },
 
     { 
       id: 7, 
       category: 'EPOQUE DISHES', 
-      title: "Mish viqi spinaq pure", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      title: "Mish Viçi në Furrë", 
+      subItems: ["Mish viçi i pjekur në furrë me perime të ndryshme dhe djathë të shkrirë."], 
       image: image1, 
-      price: "11.99"
+      price: "8.50"
     },
 
     { 
       id: 8, 
       category: 'EPOQUE DISHES', 
-      title: "Stek bordelaise me shitakie kepurdha", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      title: "Mish Viçi me Pure Spinaqi ", 
+      subItems: ["Mish viçi i gatuar dhe i shoqëruar me pure spinaqi dhe parmixhan."], 
       image: image1, 
-      price: "11.99"
+      price: "8.30"
     },
 
     { 
       id: 9, 
       category: 'EPOQUE DISHES', 
-      title: "Tagliata papardelle", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      title: "Biftek Provencal", 
+      subItems: ["Biftek i gatuar me spec,kungulleshe, patellxhan dhe salcë provencale."], 
       image: image1, 
-      price: "11.99"
+      price: "15.00"
     },
 
     { 
       id: 10, 
       category: 'EPOQUE DISHES', 
-      title: "Stroganof", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      title: "Biftek Rukolë Spinaq", 
+      subItems: ["Biftek i shoqëruar me pure spinaqidhe rukolë të freskët."], 
       image: image1, 
-      price: "11.99"
+      price: "16.50"
     },
 
     { 
       id: 11, 
       category: 'EPOQUE DISHES', 
-      title: "Biftek rukolla qips", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      title: "Biftek Lyonnaise", 
+      subItems: ["Biftek me qepë të karamelizuara në stilin Lyonnaise, patate dhe salcë e butë me verë të kuqe."], 
       image: image1, 
-      price: "11.99"
-    },
-
-    { 
-      id: 12, 
-      category: 'EPOQUE DISHES', 
-      title: "Biftek gorgonzolla", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
-      image: image1, 
-      price: "11.99"
-    },
-
-    { 
-      id: 13, 
-      category: 'EPOQUE DISHES', 
-      title: "Steak lyonnaise me qep te karamelizuara", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
-      image: image1, 
-      price: "11.99"
+      price: "16.00"
     },
 
   ];

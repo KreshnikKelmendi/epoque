@@ -3,58 +3,39 @@ import image1 from "../assets/PASTA.png";
 const burgers = [
     { 
       id: 1, 
-      category: 'Burgers and panini', 
-      title: "Burger", 
-      subItems: ["Croissant", "French toast", "Egg benedict", 'Croissant me omlet francez', 'Skanderbeg'], 
+      category: 'Burgers & Sandwiches', 
+      title: "Cheese Burger", 
+      subItems: ["Burger klasik me djathë të shkrirë, mish të freskët, sallatë iceberg, tranguj turshi, domate, qepë të kuqe. Shërbehet me patate dhe salcë"], 
       image: image1, 
-      price: "11.99"
+      price: "4.90"
     },
 
     { 
       id: 2, 
-      category: 'Burgers and panini',
-      title: "Cruchy burger", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      category: 'Burgers & Sandwiches',
+      title: "Crunchy Burger", 
+      subItems: ["Burger me mish pule me shtresë krokante, salcë shtëpie, sallatë iceberg dhe tranguj turshi. Shërbehet me patate dhe salcë."], 
       image: image1, 
-      price: "11.99"
+      price: "4.50"
     },
 
     { 
       id: 3, 
-      category: 'Burgers and panini', 
-      title: "Mozarella panini", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      category: 'Burgers & Sandwiches', 
+      title: "Mozarella Baguette", 
+      subItems: ["Baguette me djath mozarella, domate të thata dhe rukola."], 
       image: image1, 
-      price: "11.99"
+      price: "3.90"
     },
 
     { 
       id: 4, 
-      category: 'Burgers and panini', 
-      title: "Persuto panini", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      category: 'Burgers & Sandwiches', 
+      title: "Steak Baguette", 
+      subItems: ["Baguette me biftek të pjekur, qepë të karamelizuara, rukola dhe salcë kremoze me borzilok."], 
       image: image1, 
-      price: "11.99"
+      price: "5.90"
     },
-
-    { 
-      id: 5, 
-      category: 'Burgers and panini', 
-      title: "Pasta panini", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
-      image: image1, 
-      price: "11.99"
-    },
-
-    { 
-      id: 6, 
-      category: 'Burgers and panini', 
-      title: "Crossan panini", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
-      image: image1, 
-      price: "11.99"
-    },
-
   ];
 
 export { burgers }  

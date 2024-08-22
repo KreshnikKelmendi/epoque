@@ -3,110 +3,101 @@ import image1 from "../assets/PASTA.png";
 const pasta = [
     { 
       id: 1, 
-      category: 'PASTA RIZOTO', 
-      title: "Pancheri 4 djathra", 
-      subItems: ["Croissant", "French toast", "Egg benedict", 'Croissant me omlet francez', 'Skanderbeg'], 
+      category: 'Pasta & Risotto', 
+      title: "Tagliatelle Caffè & Formaggio", 
+      subItems: ["Tagliatelle të shoqëruara me krem djathi të butë, djath parmixhan dhe kokrra të grira kafeje.",], 
       image: image1, 
-      price: "11.99"
+      price: "4.80"
     },
 
     { 
       id: 2, 
-      category: 'PASTA RIZOTO',
-      title: "Tagl.Ala vodka", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      category: 'Pasta & Risotto',
+      title: "Penne me Pulë dhe Spinaq", 
+      subItems: ["Penne me fileto pule, spinaq të freskët dhe krem qumështi, djath parmixhan dhe piper të zi."], 
       image: image1, 
-      price: "11.99"
-    },
-
-    { 
-      id: 3, 
-      category: 'PASTA RIZOTO', 
-      title: "Tag.Amatricana", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
-      image: image1, 
-      price: "11.99"
+      price: "4.50"
     },
 
     { 
       id: 4, 
-      category: 'PASTA RIZOTO', 
+      category: 'Pasta & Risotto', 
       title: "Pene Al pesto", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      subItems: ["Penne me salcë të freskët pesto, djath parmixhan dhe domate të thata"], 
       image: image1, 
-      price: "11.99"
+      price: "4.80"
     },
 
     { 
       id: 5, 
-      category: 'PASTA RIZOTO', 
-      title: "Pene salmon", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      category: 'Pasta & Risotto', 
+      title: "Paccheri alla Sorrentina", 
+      subItems: ["Paccheri të gatuara me salcë të freskët domatesh, mozzarella të shkrirë dhe djath parmixhan"], 
       image: image1, 
-      price: "11.99"
+      price: "5.90"
     },
 
     { 
       id: 6, 
-      category: 'PASTA RIZOTO', 
-      title: "Pene pule spinaq", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      category: 'Pasta & Risotto', 
+      title: "Linguini me Karkaleca", 
+      subItems: ["Linguini me karkaleca dhe kunguj të zier, salcë me hudhër dhe vaj ulliri, djath parmixhan."], 
       image: image1, 
-      price: "11.99"
+      price: "6.50"
     },
 
     { 
       id: 7, 
-      category: 'PASTA RIZOTO', 
-      title: "Linguini karkalec", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      category: 'Pasta & Risotto', 
+      title: "Penne me Salmon & Brokoli", 
+      subItems: ["Penne me salmon, brokoli dhe domate të freskëta, krem djathi."], 
       image: image1, 
-      price: "11.99"
+      price: "6.50"
     },
 
     { 
       id: 8, 
-      category: 'PASTA RIZOTO', 
-      title: "Gnochi", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      category: 'Pasta & Risotto', 
+      title: "Tagliatelle Amatriciana", 
+      subItems: ["Tagliatelle, sos domatesh, proshutë, kërpudha të freskëta, parmixhan dhe gjethe të freskëta borziloku."], 
       image: image1, 
-      price: "11.99"
+      price: "5.50"
     },
 
     { 
       id: 9, 
-      category: 'PASTA RIZOTO', 
-      title: "Rizoto këpurdha gorgonzoll", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      category: 'Pasta & Risotto', 
+      title: "Risotto Primavera", 
+      subItems: ["Risotto me spec të kuq, qepë, fasule të kuqe, gjethe të freskëta magdanozi dhe djath parmixhan."], 
       image: image1, 
-      price: "11.99"
+      price: "4.50"
     },
 
     { 
       id: 10, 
-      category: 'PASTA RIZOTO', 
-      title: "Rizoto primavera", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      category: 'Pasta & Risotto', 
+      title: "Risotto Gorgonzola & Kërpudha", 
+      subItems: ["Risotto kremoz me djathë Gorgonzola dhe kërpudha të freskëta, parmixhan."], 
       image: image1, 
-      price: "11.99"
+      price: "5.00"
     },
 
     { 
       id: 11, 
-      category: 'PASTA RIZOTO', 
-      title: "Rizoto mare monti", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      category: 'Pasta & Risotto', 
+      title: "Risotto Kërpudha & Spinaq", 
+      subItems: ["Risotto kremoz me kërpudha të freskëta dhe spinaq të njomë."], 
       image: image1, 
-      price: "11.99"
+      price: "4.50"
     },
 
     { 
       id: 12, 
-      category: 'PASTA RIZOTO', 
-      title: "Rizoto pule", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
+      category: 'Pasta & Risotto', 
+      title: "Risotto Karkaleca dhe kepurdha ", 
+      subItems: ["Risotto i pasur me një përzierje të kërpudhave dhe karkaleca, që ofron një kombinim të shijshëm të tokës dhe detit."], 
       image: image1, 
-      price: "11.99"
+      price: "6.00"
     },
 
   ];

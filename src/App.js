@@ -26,9 +26,9 @@ function App() {
             <Route path="/menu" element={<MenuPage />} />
             <Route path="/meat" element={<MeatPage />} />
             <Route path="/breakfast" element={<BreakfastPage />} />
-            <Route path="/appetiser" element={<AppetiserPage />} />
+            <Route path="/starters" element={<AppetiserPage />} />
             <Route path="/sallata" element={<Sallata />} />
-            <Route path="/burgers" element={<BurgersPage />} />
+            <Route path="/burgers&sandwiches" element={<BurgersPage />} />
             <Route path="/pasta" element={<Pasta />} />
             <Route path="/epoque-dishes" element={<EpoqueDishesPage />} />
             <Route path="/contact" element={<ContactPage />} />
