@@ -12,6 +12,9 @@ import BurgersPage from "./components/pages/BurgersPage";
 import Pasta from "./components/pages/Pasta";
 import EpoqueDishesPage from "./components/pages/EpoqueDishesPage";
 import ContactPage from "./components/pages/ContactPage";
+import Coffe from "./components/pages/Coffe";
+import Koktej from "./components/pages/Koktej";
+import ScrollToTopButton from "./components/navbar/ScrollToTopButton";
 
 
 
@@ -25,6 +28,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/menu" element={<MenuPage />} />
             <Route path="/meat" element={<MeatPage />} />
+            <Route path="/caffe" element={<Coffe />} />
+            <Route path="/koktej" element={<Koktej />} />
             <Route path="/breakfast" element={<BreakfastPage />} />
             <Route path="/starters" element={<AppetiserPage />} />
             <Route path="/sallata" element={<Sallata />} />
@@ -34,6 +39,7 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
           <Footer />
+          <ScrollToTopButton />
       </BrowserRouter>
     </>
   );

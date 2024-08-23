@@ -60,7 +60,7 @@ const AppetiserPage = () => {
 
       <div className='border-b flex justify-between border-[#11141C] pb-6 lg:pb-6 text-[19px] font-custom'>
         <p>CATEGORY</p>
-        <p>PRICE</p>
+        <p className='hidden lg:block'>PRICE</p>
       </div>
       
       <svg className='hidden lg:block lg:absolute top-96 left-0 lg:left-3 2xl:left-24' width="41" height="70" viewBox="0 0 41 70" fill="none" xmlns="http://www.w3.org/2000/svg">

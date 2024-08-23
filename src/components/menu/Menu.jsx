@@ -86,9 +86,11 @@ const Menu = () => {
             </Link>
 
             <div className='text-8xl pt-6 lg:text-[150px] font-custom1 text-[#8E2209] lg:ml-80 2xl:ml-96 uppercase'>
+            <Link onClick={handleClick} to={item.link}>
               <p>{item.title}</p>
+              </Link>
               {subItemChunks.map((chunk, chunkIdx) => (
-                <div key={chunkIdx} className='flex flex-col lg:flex-row lg:space-x-2 lg:py-[2px]'>
+                <div key={chunkIdx} className='flex flex-col lg:flex-row lg:space-x-2 lg:w-fit lg:py-[2px]'>
                   {chunk.map((subItem, idx) => (
                     <ul key={idx} className='list-none'>
                       <li className='text-base lg:text-[15px] 2xl:text-[19px] uppercase font-custom text-[#11141C]'>

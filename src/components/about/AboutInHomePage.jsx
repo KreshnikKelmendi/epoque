@@ -48,7 +48,7 @@ const AboutInHomePage = () => {
                 </defs>
               </svg>
             </span>
-            Welcome to Epoque, where timeless artistry of the past meets the aromatic freshly brewed coffee
+            Welcome to Époque, where every detail reflects style and comfort, creating the perfect space for a memorable dining experience.
           </p>
         </div>
       </div>

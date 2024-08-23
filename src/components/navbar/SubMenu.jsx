@@ -68,14 +68,14 @@ const SubMenu = () => {
         ref={menuRef} 
         className={`overflow-hidden lg:flex justify-center items-center w-full ${filtersOpen ? 'block' : 'hidden'}`}
       >
-        <ul className='grid grid-cols-2 gap-4 lg:flex lg:space-x-0 text-3xl lg:text-[38px] uppercase font-custom1 text-center'>
+        <ul className='grid grid-cols-2 gap-16 w-full justify-center lg:px-20 2xl:pl-56 lg:grid-cols-4 lg:space-x-0 text-3xl lg:text-[48px] uppercase font-custom1 text-center'>
           {items.map((item, index) => (
             <NavLink 
               key={item.id} 
               to={item.link} 
-              ref={(el) => (menuItemsRef.current[index] = el)} // Assign ref to each item
+              ref={(el) => (menuItemsRef.current[index] = el)}
               className={({ isActive }) => 
-                `cursor-pointer duration-300 text-[#8E2209] hover:bg-[#8E2209] lg:rounded-[100%] flex justify-center items-center hover:text-white w-full lg:w-[216px] h-[48px] lg:h-[78px] ${isActive ? 'bg-[#8E2209] text-white' : ''}`
+                `cursor-pointer duration-300 text-[#8E2209] leading-[41.15px] hover:bg-[#8E2209] lg:rounded-[100%] flex justify-center items-center hover:text-white w-full lg:w-[216px] h-[48px] lg:h-[118px] ${isActive ? 'bg-[#8E2209] text-white' : ''}`
               }
             >
               {item.title}

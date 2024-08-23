@@ -14,22 +14,21 @@ const Banner = () => {
 
   useEffect(() => {
     if (inView) {
-      // Animation with GSAP
-      const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+      // Refined GSAP Animation
+      const tl = gsap.timeline({ defaults: { ease: 'power2.out', duration: 1 } });
 
       tl.from(textRef.current.children, {
-        duration: 1,
-        y: 100,
+        yPercent: 100,
         opacity: 0,
-        stagger: 0.2,
-        ease: 'back.out(1.4)', 
+        stagger: 0.3,
+        ease: 'power2.out',
       })
       .from(descriptionRef.current, {
-        duration: 0.8,
-        y: 50,
+        yPercent: 50,
         opacity: 0,
-        ease: 'back.out(1.7)', 
-      }, '-=0.5'); 
+        scale: 0.95,
+        ease: 'power2.out',
+      }, '-=0.8'); // Overlap animation with the previous one for a smoother effect
     }
   }, [inView]);
 
@@ -54,8 +53,8 @@ const Banner = () => {
         </p>
         
         {/* Description */}
-        <p ref={descriptionRef} className='text-[19px] font-custom lg:w-[589px] text-justify leading-[25.62px] tracking-tight'>
-          Lorem ipsum dolor sit amet, consectetuer a <span className='lg:text-white'>dipiscing elit, sed diam</span> nonummy nibh euismod tincidunt ut laoreet <span className='lg:text-white'>dolore magna aliquam</span> erat volutpat.
+        <p ref={descriptionRef} className='text-[19px] font-custom lg:w-[589px] text-justify leading-[25.62px] tracking-tighter'>
+          At Époque, we combine delicious flavors with <span className='lg:text-white'>elegance. Each dish is </span> carefully crafted to offer a stylish and comforta<span className='lg:text-white'>ble atmosphere where</span> dining is an experience to savor.
         </p>
       </div>
       

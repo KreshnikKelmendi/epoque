@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { gsap } from 'gsap';
-import { epoqueDishes } from '../menu/epoqueDishes';
+import { koktej } from '../menu/koktej';
 
 // Helper function to chunk array into subarrays of specified size
 const chunkArray = (array = [], chunkSize) => {
@@ -15,7 +15,7 @@ const chunkArray = (array = [], chunkSize) => {
   }, []);
 };
 
-const EpoqueDishesPage = () => {
+const Koktej = () => {
   const refs = useRef([]);
 
   const addToRefs = (el) => {
@@ -75,19 +75,19 @@ const EpoqueDishesPage = () => {
         </defs>
       </svg>
 
-      {epoqueDishes?.map((item) => {
-        const subItemChunks = chunkArray(item.subItems || [], 3); 
+      {koktej?.map((item) => {
+        const subItemChunks = chunkArray(item.subItems || [], 3); // Use empty array if item.subItems is undefined
         return (
           <div
             key={item.id}
-            className='border-b border-[#11141C] lg:flex lg:items-center py-2 lg:py-0 lg:pb-6 lg:h-fit lg:relative'
+            className='border-b border-[#11141C] lg:flex lg:items-center py-2 lg:py-0 lg:pb-0 lg:h-fit lg:relative'
             data-title={item.title}
           >
-            <p className='font-custom lg:w-24'>{item.category}</p>
+            <p className='font-custom'>{item.category}</p>
             <div className='text-8xl pt-6 lg:text-[130px] 2xl:text-[150px] font-custom1 text-[#8E2209] lg:ml-44 2xl:ml-80 '>
               <p className='uppercase'>{item.title}</p>
               {subItemChunks.map((chunk, chunkIdx) => (
-                <div key={chunkIdx} className='flex flex-col lg:pr-4 lg:flex-row lg:space-x-1 lg:py-[2px]'>
+                <div key={chunkIdx} className='flex flex-col lg:flex-row lg:space-x-1 lg:py-[2px]'>
                   {chunk.map((subItem, idx) => (
                     <ul key={idx} className='list-none'>
                       {subItem && (
@@ -103,9 +103,11 @@ const EpoqueDishesPage = () => {
                 </div>
               ))}
             </div>
-            <div className='ml-auto'>
-              <p className='text-[#11141C] font-custom1 text-[38px]'>{item.price}€</p>
-            </div>
+            {item.price && (
+                <div className='ml-auto'>
+                    <p className='text-[#11141C] font-custom1 text-[38px]'>{item.price}€</p>
+                </div>
+            )}
           </div>
         );
       })}
@@ -113,4 +115,4 @@ const EpoqueDishesPage = () => {
   );
 };
 
-export default EpoqueDishesPage;
+export default Koktej;

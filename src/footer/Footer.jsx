@@ -28,7 +28,7 @@ const Footer = () => {
             </defs>
         </svg>
         <p className='text-center text-[48px] font-custom1 text-white leading-[42.9px] mt-6'>
-            Get started to up your business <br/>with personal AI manager
+            A journey into timeless elegance <br/> and modern comfort.
         </p>
         </div>
         <div>

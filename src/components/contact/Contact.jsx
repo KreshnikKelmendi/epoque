@@ -36,7 +36,7 @@ const Contact = () => {
           />
           <button
             type="submit"
-            className="p-2 text-white rounded w-[250px] bg-[#411011] hover:bg-blue-600"
+            className="p-2 text-white rounded w-[250px] bg-[#411011] hover:bg-white hover:text-[#411011]"
           >
             Send
           </button>
