@@ -133,9 +133,9 @@ const Navbar = () => {
         <Link onClick={handleNav} to="/menu" className='p-4 text-center text-[#8E2209] duration-300 hover:text-black cursor-pointer border-gray-600'>
           MENU
         </Link>
-        <li className='p-4 text-center text-[#8E2209] duration-300 hover:text-black cursor-pointer border-gray-600'>
-          PLACE
-        </li>
+        <Link onClick={handleNav} to="/about" className='p-4 text-center text-[#8E2209] duration-300 hover:text-black cursor-pointer border-gray-600'>
+          ABOUT
+        </Link>
         <Link onClick={handleNav} to="/contact" className='p-4 text-center text-[#8E2209] duration-300 hover:text-black cursor-pointer border-gray-600'>
           CONTACT
         </Link>

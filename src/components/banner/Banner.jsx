@@ -53,7 +53,7 @@ const Banner = () => {
         </p>
         
         {/* Description */}
-        <p ref={descriptionRef} className='text-[19px] font-custom lg:w-[589px] text-justify leading-[25.62px] tracking-tighter'>
+        <p ref={descriptionRef} className='lg:text-[19px] font-custom lg:w-[589px] lg:text-justify leading-[25.62px] lg:tracking-tighter'>
           At Époque, we combine delicious flavors with <span className='lg:text-white'>elegance. Each dish is </span> carefully crafted to offer a stylish and comforta<span className='lg:text-white'>ble atmosphere where</span> dining is an experience to savor.
         </p>
       </div>

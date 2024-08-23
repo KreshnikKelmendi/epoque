@@ -4,7 +4,7 @@ const items = [
     { 
       id: 1, 
       text: 'See More', 
-      title: "CAFFE MENU", 
+      title: "CAFE MENU", 
       subItems: ["Espresso, Macchiato, Americano, Cappucino, Flat White, French Cafe, Latte, Iced Cafe, Iced Late, Irish Cafe, Hot Chocolate, Tea"], 
       image: image1, 
       link: "/caffe" 

@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { AiOutlineAlert, AiOutlineArrowDown, AiOutlineArrowRight, AiOutlineArrowUp, AiOutlineRight } from 'react-icons/ai';
 
 // Define your categories with SVGs
 const categories = [
   { 
     id: 1, 
-    title: 'COFFE MENU', 
+    title: 'CAFE MENU', 
     link:'/caffe',
     svg: 
-    <svg width="185" height="290" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="w-[130px] lg:w-[185px] lg:h-[290px]" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_11_156)">
       <path d="M88.4355 273.375C50.122 273.375 19.0679 240.428 19.0679 199.792V90.202C19.0679 49.5663 50.122 16.6191 88.4355 16.6191C126.749 16.6191 157.803 49.5663 157.803 90.202V199.792C157.803 240.434 126.749 273.375 88.4355 273.375Z" fill="#F4ECE9"/>
       <path d="M88.5169 269.376C51.923 269.376 22.2637 237.909 22.2637 199.097V90.9032C22.2637 52.0856 51.9286 20.6239 88.5169 20.6239C125.105 20.6239 154.77 52.0915 154.77 90.9032V199.097C154.77 237.909 125.105 269.376 88.5169 269.376Z" stroke="#8E2209" stroke-width="2" stroke-miterlimit="10"/>
@@ -36,7 +37,7 @@ const categories = [
     title: 'KOKTEJ', 
     link: "/KOKTEJ",
     svg: 
-    <svg width="185" height="290" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="w-[130px] lg:w-[185px] lg:h-[290px]" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_11_157)">
       <path d="M88.4355 273.375C50.122 273.375 19.0679 240.428 19.0679 199.792V90.202C19.0679 49.5663 50.122 16.6191 88.4355 16.6191C126.749 16.6191 157.803 49.5663 157.803 90.202V199.792C157.803 240.434 126.749 273.375 88.4355 273.375Z" fill="#F4ECE9"/>
       <path d="M88.5169 269.376C51.923 269.376 22.2637 237.909 22.2637 199.097V90.9032C22.2637 52.0856 51.9286 20.6239 88.5169 20.6239C125.105 20.6239 154.77 52.0915 154.77 90.9032V199.097C154.77 237.909 125.105 269.376 88.5169 269.376Z" stroke="#8E2209" stroke-width="2" stroke-miterlimit="10"/>
@@ -66,7 +67,7 @@ const categories = [
     title: 'MËNGJESI', 
     link: "/breakfast",
     svg: 
-    <svg width="185" height="290" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="w-[130px] lg:w-[185px] lg:h-[290px]" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_11_172)">
       <path d="M88.4355 273.375C50.122 273.375 19.0679 240.428 19.0679 199.792V90.202C19.0679 49.5663 50.122 16.6191 88.4355 16.6191C126.749 16.6191 157.803 49.5663 157.803 90.202V199.792C157.803 240.434 126.749 273.375 88.4355 273.375Z" fill="#F4ECE9"/>
       <path d="M88.5169 269.376C51.923 269.376 22.2637 237.909 22.2637 199.097V90.9032C22.2637 52.0856 51.9286 20.6239 88.5169 20.6239C125.105 20.6239 154.77 52.0915 154.77 90.9032V199.097C154.77 237.909 125.105 269.376 88.5169 269.376Z" stroke="#8E2209" stroke-width="2" stroke-miterlimit="10"/>
@@ -93,7 +94,7 @@ const categories = [
     title: 'SALADS', 
     link: "/sallata",
     svg: 
-    <svg width="185" height="290" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="w-[130px] lg:w-[185px] lg:h-[290px]" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_11_172)">
       <path d="M88.4355 273.375C50.122 273.375 19.0679 240.428 19.0679 199.792V90.202C19.0679 49.5663 50.122 16.6191 88.4355 16.6191C126.749 16.6191 157.803 49.5663 157.803 90.202V199.792C157.803 240.434 126.749 273.375 88.4355 273.375Z" fill="#F4ECE9"/>
       <path d="M88.5169 269.376C51.923 269.376 22.2637 237.909 22.2637 199.097V90.9032C22.2637 52.0856 51.9286 20.6239 88.5169 20.6239C125.105 20.6239 154.77 52.0915 154.77 90.9032V199.097C154.77 237.909 125.105 269.376 88.5169 269.376Z" stroke="#8E2209" stroke-width="2" stroke-miterlimit="10"/>
@@ -121,7 +122,7 @@ const categories = [
       title: 'STARTERS', 
       link: "/starters",
       svg: 
-      <svg width="185" height="290" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg className="w-[130px] lg:w-[185px] lg:h-[290px]" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_11_157)">
         <path d="M88.4355 273.375C50.122 273.375 19.0679 240.428 19.0679 199.792V90.202C19.0679 49.5663 50.122 16.6191 88.4355 16.6191C126.749 16.6191 157.803 49.5663 157.803 90.202V199.792C157.803 240.434 126.749 273.375 88.4355 273.375Z" fill="#F4ECE9"/>
         <path d="M88.5169 269.376C51.923 269.376 22.2637 237.909 22.2637 199.097V90.9032C22.2637 52.0856 51.9286 20.6239 88.5169 20.6239C125.105 20.6239 154.77 52.0915 154.77 90.9032V199.097C154.77 237.909 125.105 269.376 88.5169 269.376Z" stroke="#8E2209" stroke-width="2" stroke-miterlimit="10"/>
@@ -149,7 +150,7 @@ const categories = [
         title: 'PASTA & RISOTTO', 
         link: "/pasta",
         svg: 
-        <svg width="185" height="290" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="w-[130px] lg:w-[185px] lg:h-[290px]" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_11_156)">
           <path d="M88.4355 273.375C50.122 273.375 19.0679 240.428 19.0679 199.792V90.202C19.0679 49.5663 50.122 16.6191 88.4355 16.6191C126.749 16.6191 157.803 49.5663 157.803 90.202V199.792C157.803 240.434 126.749 273.375 88.4355 273.375Z" fill="#F4ECE9"/>
           <path d="M88.5169 269.376C51.923 269.376 22.2637 237.909 22.2637 199.097V90.9032C22.2637 52.0856 51.9286 20.6239 88.5169 20.6239C125.105 20.6239 154.77 52.0915 154.77 90.9032V199.097C154.77 237.909 125.105 269.376 88.5169 269.376Z" stroke="#8E2209" stroke-width="2" stroke-miterlimit="10"/>
@@ -168,10 +169,10 @@ const categories = [
 
          { 
           id: 7, 
-          title: 'BURGERS & SANDWICHES', 
+          title: 'BURGERS', 
           link: "/burgers&sandwiches",
           svg: 
-          <svg width="185" height="290" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className="w-[130px] lg:w-[185px] lg:h-[290px]" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_11_156)">
             <path d="M88.4355 273.375C50.122 273.375 19.0679 240.428 19.0679 199.792V90.202C19.0679 49.5663 50.122 16.6191 88.4355 16.6191C126.749 16.6191 157.803 49.5663 157.803 90.202V199.792C157.803 240.434 126.749 273.375 88.4355 273.375Z" fill="#F4ECE9"/>
             <path d="M88.5169 269.376C51.923 269.376 22.2637 237.909 22.2637 199.097V90.9032C22.2637 52.0856 51.9286 20.6239 88.5169 20.6239C125.105 20.6239 154.77 52.0915 154.77 90.9032V199.097C154.77 237.909 125.105 269.376 88.5169 269.376Z" stroke="#8E2209" stroke-width="2" stroke-miterlimit="10"/>
@@ -201,7 +202,7 @@ const categories = [
             title: 'EPOQUE DISHES', 
             link: "/epoque-dishes",
             svg: 
-            <svg width="185" height="290" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-[130px] lg:w-[185px] lg:h-[290px]" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_11_156)">
               <path d="M88.4355 273.375C50.122 273.375 19.0679 240.428 19.0679 199.792V90.202C19.0679 49.5663 50.122 16.6191 88.4355 16.6191C126.749 16.6191 157.803 49.5663 157.803 90.202V199.792C157.803 240.434 126.749 273.375 88.4355 273.375Z" fill="#F4ECE9"/>
               <path d="M88.5169 269.376C51.923 269.376 22.2637 237.909 22.2637 199.097V90.9032C22.2637 52.0856 51.9286 20.6239 88.5169 20.6239C125.105 20.6239 154.77 52.0915 154.77 90.9032V199.097C154.77 237.909 125.105 269.376 88.5169 269.376Z" stroke="#8E2209" stroke-width="2" stroke-miterlimit="10"/>
@@ -242,20 +243,25 @@ const Category = () => {
   const handleClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+  
   return (
     <div className='2xl:mt-[-100px] overflow-hidden mt-16 lg:mt-16 justify-center items-center flex flex-col'>
-      <p className='text-8xl lg:text-[150px] font-custom1 text-center text-[#8E2209]'>CATEGORY</p>
-      <div className='grid grid-cols-2 lg:grid-cols-4 gap-y-8 lg:gap-y-0 lg:gap-x-32 mt-6 lg:mt-16'>
-        {categories?.map(category => (
-          <div key={category.id} className='mt-6 justify-center items-center flex flex-col'>
-            {category.svg}
-            <Link onClick={handleClick} to={category.link}>
-             <p className='lg:text-sm lg:w-[186px] font-custom mt-6 border-[1px] border-[#8E2209] rounded-[100%] px-6 py-2 lg:p-4 text-center text-[#201E1F] hover:bg-[#8E2209] hover:text-white hover:duration-500 cursor-pointer'>{category.title}</p>
-            </Link>
-          </div>
-        ))}
+  <p className='text-8xl lg:text-[150px] font-custom1 text-center text-[#8E2209]'>CATEGORY</p>
+  <div className='grid grid-cols-2 lg:grid-cols-4 gap-y-8 lg:gap-y-0 lg:gap-x-32 mt-6 lg:mt-16'>
+    {categories?.map(category => (
+      <div key={category.id} className='mt-6 justify-center items-center flex flex-col'>
+        {category.svg}
+        <Link onClick={handleClick} to={category.link} className='flex items-center mt-6'>
+          <p className='lg:text-sm flex lg:block lg:w-[186px] font-custom lg:border-[1px] lg:border-[#8E2209] lg:rounded-[100%] px-6 py-2 lg:p-4 text-center text-[#201E1F] hover:bg-[#8E2209] hover:text-white hover:duration-500 cursor-pointer'>
+            {category.title}
+            <AiOutlineArrowUp className='ml-[1px] text-[#8E2209] lg:hidden' size={20} />
+          </p>
+          
+        </Link>
       </div>
-    </div>
+    ))}
+  </div>
+</div>
   );
 };
 
