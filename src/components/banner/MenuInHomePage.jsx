@@ -1,8 +1,14 @@
 import React from 'react'
 import firstImage from "../assets/PASTA.png"
 import secondImage from "../assets/pasta2.png"
+import { Link } from 'react-router-dom';
 
 const MenuInHomePage = () => {
+
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className='w-full flex flex-col lg:flex-row px-5 lg:px-20 2xl:px-48 mt-24 lg:mt-44'>
        <div className='lg:w-1/2'>
@@ -22,20 +28,20 @@ const MenuInHomePage = () => {
         </p>
          <div className='mt-8'>
             <img className='lg:w-[706px] lg:h-[399px] object-cover' src={firstImage} alt='' />
-            <div className='w-fit mt-8 text-[#201E1F]'>
+            {/* <div className='w-fit mt-8 text-[#201E1F]'>
                 <p className='text-[14px] font-custom'>PASTA</p>
                 <p className='text-[19px] font-custom'>SHPAGETA BOLOGNESE</p>
                 <p className='text-right font-custom1 text-[28px]'>11.99€</p>
-            </div>
+            </div> */}
          </div>
        </div>
 
        <div className='lg:w-1/2 mt-8 lg:mt-0'>
          <div className='flex w-full'>
             <div className='flex flex-col text-right pr-6 justify-center w-full mt-16'>
-                <p className='text-[14px] font-custom '>MËNGJES</p>
-                <p className='text-[19px] font-custom '>MENGJES FRANCEZ</p>
-                <p className='font-custom1 text-[28px]'>11.99€</p>
+                <p className='text-[14px] font-custom '></p>
+                <p className='text-[19px] font-custom '></p>
+                <p className='font-custom1 text-[28px]'></p>
             </div>
             <div className='w-full'>
                 <img className='2xl:w-[329px] 2xl:h-[494px]' src={secondImage} alt='' />
@@ -44,13 +50,13 @@ const MenuInHomePage = () => {
          </div>
          <div className='flex mt-8 lg:mt-28'>
             <p className='text-[19px] font-custom text-justify tracking-tighter leading-[25.62px] text-[#201E1F] lg:pl-10 2xl:pl-0'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione voluptatem ad animi in quae delectus tempora ipsam aliquid nulla, aperiam nemo maiores hic voluptatum deleniti amet ducimus adipisci dolorem corrupti.
+            At Époque, we combine delicious flavors with elegance. Each dish is carefully crafted to offer a stylish and comfortable atmosphere where dining is an experience to savor.
             </p>
            
          </div>
-         <div className='lg:mt-16 lg:pl-10 2xl:pl-0'>
+         <div className='lg:mt-0 lg:pl-10 2xl:pl-0'>
             <button className='text-[14px] font-custom mt-6 border-[1px] border-[#8E2209] rounded-[100%] px-10 py-4 text-center text-[#201E1F] hover:bg-[#8E2209] hover:text-white hover:duration-500 hover:scale-110'>
-                SEE MORE
+                <Link onClick={handleClick} to="/menu">SEE MORE</Link>
             </button>
          </div>
        </div>

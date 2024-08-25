@@ -1,6 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
+
+    const handleClick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+
   return (
     <div className='bg-[#11141C] mx-auto justify-center text-center items-center mt-10 py-20'>
         <div className='mx-auto'>
@@ -33,10 +39,10 @@ const Footer = () => {
         </div>
         <div>
             <ul className='flex mt-10 gap-x-4 text-[#F4ECE9] text-[16px] font-custom text-center justify-center items-center uppercase'>
-                <li>home</li>
-                <li>menu</li>
-                <li>place</li>
-                <li>contact</li>
+                <li className='hover:text-[#8E2209]'><Link onClick={handleClick} to="/">home</Link></li>
+                <li className='hover:text-[#8E2209]'><Link onClick={handleClick} to="/menu">menu</Link></li>
+                <li className='hover:text-[#8E2209]'><Link onClick={handleClick} to="/about">about</Link></li>
+                <li className='hover:text-[#8E2209]'><Link onClick={handleClick} to="/contact">contact</Link></li>
             </ul>
         </div>
     </div>
