@@ -63,15 +63,6 @@ const breakfast = [
       price: "3.50"
     },
 
-    { 
-      id: 9, 
-      category: 'BREAKFAST', 
-      title: "EPOQUE", 
-      subItems: ["Ramstek", "Biftek", "Mish Pule"], 
-      image: image1, 
-      price: "11.99"
-    },
-
   ];
 
 export { breakfast }  

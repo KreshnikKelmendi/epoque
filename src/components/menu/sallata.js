@@ -16,7 +16,7 @@ const sallata = [
       title: "Sallatë Baby Spinaq", 
       subItems: ["Baby spinaq i freskët, hurme të ëmbla, qiqra të ziera, mollë të gjelbër dhe arra indiane."], 
       image: image1, 
-      price: "11.99"
+      price: "5.50"
     },
 
     { 

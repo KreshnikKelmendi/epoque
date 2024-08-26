@@ -1,6 +1,7 @@
 import React from 'react'
 import firstImage from "../assets/PASTA.png"
 import secondImage from "../assets/pasta2.png"
+import thirdImage from "../assets/French-Toast.jpg"
 import { Link } from 'react-router-dom';
 
 const MenuInHomePage = () => {
@@ -11,9 +12,9 @@ const MenuInHomePage = () => {
 
   return (
     <div className='w-full flex flex-col lg:flex-row px-5 lg:px-20 2xl:px-48 mt-24 lg:mt-44'>
-       <div className='lg:w-1/2'>
+       <div className='w-full lg:w-1/2'>
          <p className='text-[19px] text-[#201E1F] font-custom'>MENU</p>
-         <p className='flex text-7xl lg:text-[100px] 2xl:text-[150px] font-custom1 2xl:leading-[134.1px] mt-8 text-[#8E2209]'>Joing the taste of a Marvelous era 
+         <p className='flex text-7xl w-full lg:text-[100px] 2xl:text-[150px] font-custom1 2xl:leading-[134.1px] mt-8 text-[#8E2209]'>Joing the taste of a Marvelous era 
             <svg className='ml-16' width="41" height="70" viewBox="0 0 41 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_11_104)">
                 <path d="M40.02 20.01C21.63 20.91 20.91 21.63 20.01 40.02C19.11 21.63 18.39 20.91 0 20.01C18.39 19.11 19.11 18.39 20.01 0C20.91 18.39 21.63 19.11 40.02 20.01Z" fill="#8E2209"/>
@@ -37,14 +38,13 @@ const MenuInHomePage = () => {
        </div>
 
        <div className='lg:w-1/2 mt-8 lg:mt-0'>
-         <div className='flex w-full'>
-            <div className='flex flex-col text-right pr-6 justify-center w-full mt-16'>
-                <p className='text-[14px] font-custom '></p>
-                <p className='text-[19px] font-custom '></p>
-                <p className='font-custom1 text-[28px]'></p>
-            </div>
+         <div className='flex w-full gap-4 lg:pl-4'>
+            
             <div className='w-full'>
                 <img className='2xl:w-[329px] 2xl:h-[494px]' src={secondImage} alt='' />
+            </div>
+            <div className='w-full'>
+                <img className='2xl:w-[329px] 2xl:h-[494px]' src={thirdImage} alt='' />
             </div>
            
          </div>

@@ -28,6 +28,8 @@ const AboutInHomePage = () => {
         );
       }
     }, [inView]);
+
+    
   
     return (
     <>
