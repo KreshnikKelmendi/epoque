@@ -1,23 +1,23 @@
 import image1 from "../assets/PASTA.png";
 
 const items = [
-    { 
-      id: 1, 
-      text: 'See More', 
-      title: "CAFE MENU", 
-      subItems: ["Espresso, Macchiato, Americano, Cappucino, Flat White, French Cafe, Latte, Iced Cafe, Iced Late, Irish Cafe, Hot Chocolate, Tea"], 
-      image: image1, 
-      link: "/caffe" 
-    },
+    // { 
+    //   id: 1, 
+    //   text: 'See More', 
+    //   title: "CAFE MENU", 
+    //   subItems: ["Espresso, Macchiato, Americano, Cappucino, Flat White, French Cafe, Latte, Iced Cafe, Iced Late, Irish Cafe, Hot Chocolate, Tea"], 
+    //   image: image1, 
+    //   link: "/caffe" 
+    // },
 
-    { 
-      id: 2, 
-      text: 'See More', 
-      title: "KOKTEJ", 
-      subItems: ["Champs Elysees, Aperol Spritz, PINA COLADA, MOJITO, MARGARITA, ESPRESSO MARTINI, Old fashioned, Daiquiri, Cosmopolitan, Whiskey sour, Mai tai, Negroni, Mimosa, White lady, French 75, French Martini, Grass, Quince, Tuxedo, Vai vai "], 
-      image: image1, 
-      link: "/koktej" 
-    },
+    // { 
+    //   id: 2, 
+    //   text: 'See More', 
+    //   title: "KOKTEJ", 
+    //   subItems: ["Champs Elysees, Aperol Spritz, PINA COLADA, MOJITO, MARGARITA, ESPRESSO MARTINI, Old fashioned, Daiquiri, Cosmopolitan, Whiskey sour, Mai tai, Negroni, Mimosa, White lady, French 75, French Martini, Grass, Quince, Tuxedo, Vai vai "], 
+    //   image: image1, 
+    //   link: "/koktej" 
+    // },
     { 
       id: 3, 
       text: 'See More', 
@@ -60,7 +60,7 @@ const items = [
       title: "Burgers & Sandwiches", 
       subItems: ["Cheese Burger", "Crunchy Burger", "Mozarella Baguette", "Steak Baguette "], 
       image: image1, 
-      link: "/burgers&sandwiches" 
+      link: "/burgers-sandwiches" 
     },
 
     { 

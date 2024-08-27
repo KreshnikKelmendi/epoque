@@ -91,7 +91,7 @@ const Koktej = () => {
                   {chunk.map((subItem, idx) => (
                     <ul key={idx} className='list-none'>
                       {subItem && (
-                        <li className='text-base lg:text-[19px] font-custom text-[#11141C]'>
+                        <li className='text-base lg:text-[19px] font-custom font-semibold text-[#11141C]'>
                           {subItem}
                           {idx !== chunk.length - 1 && (
                             <span className='hidden lg:inline'>,</span>

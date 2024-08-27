@@ -80,7 +80,7 @@ const SubMenu = () => {
         className={`overflow-hidden lg:flex justify-center items-center w-full ${filtersOpen ? 'block' : 'hidden'}`}
         style={{ height: 0, opacity: 0 }} // Ensure the initial state is hidden
       >
-        <ul className='grid grid-cols-2 gap-16 w-full justify-center lg:px-20 2xl:pl-56 lg:grid-cols-4 lg:space-x-0 text-3xl lg:text-[48px] uppercase font-custom1 text-center'>
+        <ul className='grid grid-cols-2 gap-16 w-full justify-center lg:px-20 2xl:pl-56 lg:grid-cols-3 lg:space-x-0 text-3xl lg:text-[48px] uppercase font-custom1 text-center'>
           {items.map((item, index) => (
             <NavLink 
               key={item.id} 
