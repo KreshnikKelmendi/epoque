@@ -96,7 +96,7 @@ const MeatPage = () => {
                 />
               </div>
             )}
-            <div className='text-8xl pt-6 lg:text-[150px] font-custom1 text-[#8E2209] lg:ml-80 2xl:ml-96'>
+            <div className='text-6xl pt-6 lg:text-[150px] font-custom1 text-[#8E2209] lg:ml-80 2xl:ml-96'>
               <p>{item.title}</p>
               {subItemChunks.map((chunk, chunkIdx) => (
                 <div key={chunkIdx} className='flex flex-row lg:flex-wrap space-x-4 py-[2px]'>

@@ -85,7 +85,7 @@ const Menu = () => {
               <p>{item.text}</p>
             </Link>
 
-            <div className='text-8xl pt-6 lg:text-[150px] font-custom1 text-[#8E2209] lg:ml-80 2xl:ml-96 uppercase'>
+            <div className='text-6xl pt-6 lg:text-[150px] font-custom1 text-[#8E2209] lg:ml-80 2xl:ml-96 uppercase'>
             <Link onClick={handleClick} to={item.link}>
               <p>{item.title}</p>
               </Link>

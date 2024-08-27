@@ -64,7 +64,7 @@ const categories = [
 
   { 
     id: 3, 
-    title: 'MËNGJESI', 
+    title: 'BREAKFAST', 
     link: "/breakfast",
     svg: 
     <svg className="w-[130px] lg:w-[185px] lg:h-[290px]" viewBox="0 0 185 290" fill="none" xmlns="http://www.w3.org/2000/svg">

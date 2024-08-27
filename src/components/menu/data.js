@@ -21,7 +21,7 @@ const items = [
     { 
       id: 3, 
       text: 'See More', 
-      title: "MËNGJESI", 
+      title: "BREAKFAST", 
       subItems: ["Croissant", "Avokado Tost", "Royal Eggs", 'Mëngjesi Epoque', 'Omletë Mediterrane', "Sweet French Toast", "Pjatë me Drithra"], 
       image: image1, 
       link: "/breakfast" 

@@ -50,7 +50,7 @@ const AboutInHomePage = () => {
                 </defs>
               </svg>
             </span>
-            Welcome to Époque, where every detail reflects style and comfort, creating the perfect space for a memorable dining experience.
+            Welcome to Époque, the perfect space for a memorable dining experience.
           </p>
         </div>
       </div>

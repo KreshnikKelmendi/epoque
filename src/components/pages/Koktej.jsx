@@ -84,7 +84,7 @@ const Koktej = () => {
             data-title={item.title}
           >
             <p className='font-custom'>{item.category}</p>
-            <div className='text-8xl pt-6 lg:text-[130px] 2xl:text-[150px] font-custom1 text-[#8E2209] lg:ml-44 2xl:ml-80 '>
+            <div className='text-6xl pt-6 lg:text-[130px] 2xl:text-[150px] font-custom1 text-[#8E2209] lg:ml-44 2xl:ml-80 '>
               <p className='uppercase'>{item.title}</p>
               {subItemChunks.map((chunk, chunkIdx) => (
                 <div key={chunkIdx} className='flex flex-col lg:flex-row lg:space-x-1 lg:py-[2px]'>

@@ -49,7 +49,7 @@ const MenuInHomePage = () => {
            
          </div>
          <div className='flex mt-8 lg:mt-28'>
-            <p className='text-[19px] font-custom text-justify tracking-tighter leading-[25.62px] text-[#201E1F] lg:pl-10 2xl:pl-0'>
+            <p className='text-[19px] font-custom leading-[25.62px] text-[#201E1F] lg:pl-10 2xl:pl-0'>
             At Époque, we combine delicious flavors with elegance. Each dish is carefully crafted to offer a stylish and comfortable atmosphere where dining is an experience to savor.
             </p>
            
