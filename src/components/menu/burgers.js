@@ -16,7 +16,7 @@ const burgers = [
       title: "Crunchy Burger", 
       subItems: ["Burger me mish pule me shtresë krokante, salcë shtëpie, sallatë iceberg dhe tranguj turshi. Shërbehet me patate dhe salcë."], 
       image: image1, 
-      price: "4.50"
+      price: "4.90"
     },
 
     { 
