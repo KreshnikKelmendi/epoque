@@ -41,7 +41,7 @@ const SubMenu = () => {
     '/breakfast',
     '/starters',
     '/sallata',
-    '/burgers&sandwiches',
+    '/burgers-sandwiches',
     '/epoque-dishes'
   ];
 
