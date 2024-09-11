@@ -45,7 +45,7 @@ const Koktej = () => {
   }, [inView]);
 
   return (
-    <div ref={sectionRef} className='px-5 lg:px-20 2xl:px-56 mt-16 lg:mt-24 relative items-center w-full h-fit lg:pb-10'>
+    <div ref={sectionRef} className='px-5 lg:px-20 2xl:px-56 mt-12 lg:mt-24 relative items-center w-full h-fit lg:pb-10'>
       <svg className='absolute top-[-50px] right-5 2xl:right-[100px]' width="41" height="70" viewBox="0 0 41 70" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clipPath="url(#clip0_74_338)">
           <path d="M40.02 20.01C21.63 20.91 20.91 21.63 20.01 40.02C19.11 21.63 18.39 20.91 0 20.01C18.39 19.11 19.11 18.39 20.01 0C20.91 18.39 21.63 19.11 40.02 20.01Z" fill="#8E2209"/>

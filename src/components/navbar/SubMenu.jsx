@@ -42,7 +42,8 @@ const SubMenu = () => {
     '/starters',
     '/sallata',
     '/burgers-sandwiches',
-    '/epoque-dishes'
+    '/epoque-dishes',
+    '/pasta'
   ];
 
   // Only render SubMenu if the current path is in the validPaths array
@@ -88,7 +89,7 @@ const SubMenu = () => {
               ref={(el) => (menuItemsRef.current[index] = el)}
               onClick={handleLinkClick} // Close the menu on link click
               className={({ isActive }) => 
-                `cursor-pointer duration-300 text-[#8E2209] leading-[41.15px] hover:bg-[#8E2209] lg:rounded-[100%] flex justify-center items-center hover:text-white w-full lg:w-[216px] h-[48px] lg:h-[118px] ${isActive ? 'bg-[#8E2209] text-white' : ''}`
+                `cursor-pointer duration-300 text-[#8E2209] leading-[28px] lg:leading-[41.15px] hover:bg-[#8E2209] lg:rounded-[100%] flex justify-center items-center hover:text-white w-full lg:w-[216px] h-[70px] lg:h-[118px] ${isActive ? 'bg-[#8E2209] text-white' : ''}`
               }
             >
               {item.title}
