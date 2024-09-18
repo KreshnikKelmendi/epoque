@@ -38,7 +38,7 @@ const MenuInHomePage = () => {
        </div>
 
        <div className='lg:w-1/2 mt-8 lg:mt-0'>
-         <div className='flex w-full gap-4 lg:pl-4'>
+         <div className='flex w-full gap-4 lg:pl-4 2xl:pl-10'>
             
             <div className='w-full'>
                 <img className='2xl:w-[329px] 2xl:h-[494px]' src={secondImage} alt='' />
@@ -49,12 +49,12 @@ const MenuInHomePage = () => {
            
          </div>
          <div className='flex mt-8 lg:mt-28'>
-            <p className='text-[19px] font-custom leading-[25.62px] text-[#201E1F] lg:pl-10 2xl:pl-0'>
-            Époque – where timeless flavors meet modern elegance, creating unforgettable moments in every dining experience.
+            <p className='text-[19px] font-custom leading-[25.62px] text-[#201E1F] lg:pl-10 2xl:pl-10'>
+              Époque – where timeless flavors meet modern elegance, creating unforgettable moments in every dining experience.
             </p>
            
          </div>
-         <div className='lg:mt-0 lg:pl-10 2xl:pl-0'>
+         <div className='lg:mt-0 lg:pl-10 2xl:pl-10'>
             <button className='text-[14px] font-custom mt-6 border-[1px] border-[#8E2209] rounded-[100%] px-10 py-4 text-center text-[#201E1F] hover:bg-[#8E2209] hover:text-white hover:duration-500 hover:scale-110'>
                 <Link onClick={handleClick} to="/menu">SEE MORE</Link>
             </button>

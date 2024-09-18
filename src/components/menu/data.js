@@ -67,7 +67,7 @@ const items = [
       id: 8, 
       text: 'See More', 
       title: "Epoque Dishes", 
-      subItems: ["Pulë Masala & Tagliatelle", "Pulë Crunchy & Tagliatelle", "Pulë Crunchy & Risotto", "Pulë Mediterane me Oriz dhe Mozarella", "Pulë Sauté me Spinaq", "Mish Viçi me Këpurdha", "Mish Viçi në Furrë", "Mish Viçi me Pure Spinaqi", "Biftek Provencal", "Biftek Rukolë Spinaq", "Biftek Lyonnaise"], 
+      subItems: ["Pulë Masala & Tagliatelle · Pulë Crunchy & Tagliatelle · Pulë Crunchy & Risotto · Pulë Mediterane me Oriz dhe Mozarella · Pulë Sauté me Spinaq · Mish Viçi me Këpurdha · Mish Viçi në Furrë · Mish Viçi me Pure Spinaqi · Biftek Provencal · Biftek Rukolë Spinaq · Biftek Lyonnaise"], 
       image: image1, 
       link: "/epoque-dishes" 
     },
