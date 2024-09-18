@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 import SplitType from 'split-type';
 import { gsap } from 'gsap';
-import aboutImage from "../assets/aboutImage1.png"
+import aboutImage from "../assets/D95A4984.JPG"
 
 const AboutInHomePage = () => {
     const { ref, inView } = useInView({
