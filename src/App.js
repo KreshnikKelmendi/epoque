@@ -15,6 +15,7 @@ import ContactPage from "./components/pages/ContactPage";
 import Coffe from "./components/pages/Coffe";
 import Koktej from "./components/pages/Koktej";
 import ScrollToTopButton from "./components/navbar/ScrollToTopButton";
+import AboutPage from "./components/pages/AboutPage";
 
 
 
@@ -37,6 +38,7 @@ function App() {
             <Route path="/pasta" element={<Pasta />} />
             <Route path="/epoque-dishes" element={<EpoqueDishesPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/about" element={<AboutPage />} />
           </Routes>
           <Footer />
           <ScrollToTopButton />

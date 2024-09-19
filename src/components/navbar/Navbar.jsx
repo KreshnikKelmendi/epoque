@@ -46,9 +46,9 @@ const Navbar = () => {
               </defs>
             </svg>
           </Link>
-          <li className='m-2 cursor-pointer duration-300 hover:text-black'>
+          <NavLink to="/about" className='m-2 cursor-pointer duration-300 hover:text-black'>
             About
-          </li>
+          </NavLink>
           <NavLink to="/contact" className='m-2 cursor-pointer duration-300 hover:text-black'>
             Contact
           </NavLink>
