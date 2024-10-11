@@ -10,14 +10,7 @@ const items = [
     //   link: "/caffe" 
     // },
 
-    // { 
-    //   id: 2, 
-    //   text: 'See More', 
-    //   title: "KOKTEJ", 
-    //   subItems: ["Champs Elysees, Aperol Spritz, PINA COLADA, MOJITO, MARGARITA, ESPRESSO MARTINI, Old fashioned, Daiquiri, Cosmopolitan, Whiskey sour, Mai tai, Negroni, Mimosa, White lady, French 75, French Martini, Grass, Quince, Tuxedo, Vai vai "], 
-    //   image: image1, 
-    //   link: "/koktej" 
-    // },
+   
     { 
       id: 3, 
       text: 'See More', 
@@ -70,6 +63,14 @@ const items = [
       subItems: ["Pulë Masala & Tagliatelle · Pulë Crunchy & Tagliatelle · Pulë Crunchy & Risotto · Pulë Mediterane me Oriz dhe Mozarella · Pulë Sauté me Spinaq · Mish Viçi me Këpurdha · Mish Viçi në Furrë · Mish Viçi me Pure Spinaqi · Biftek Provencal · Biftek Rukolë Spinaq · Biftek Lyonnaise"], 
       image: image1, 
       link: "/epoque-dishes" 
+    },
+    { 
+      id: 2, 
+      text: 'See More', 
+      title: "KOKTEJ", 
+      subItems: ["Mojito, Strawberry Mojito, Margarita, Cosmopolitan, Espresso Martini, French 75, Champs Elysees, Aperol Spritz, Vodka Passion, Whiskey Sour, Negroni, Black Russian, Americano, Sex on the Beach, Long Island Ice Tea, Japanese Ice Tea, Blue Hawaiian, Bahama Mama, Green Cocktail,Pina Colada "], 
+      image: image1, 
+      link: "/koktej" 
     },
 
   ];
