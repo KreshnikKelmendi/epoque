@@ -20,6 +20,15 @@ const sallata = [
     },
 
     { 
+      id: 7, 
+      category: 'SALLATA', 
+      title: "Sallatë Rukolla", 
+      subItems: ["Rukolë e freskët, me djath parmixhan të grirë, shegë të freskëta dhe arra të thërmuara."], 
+      image: image1, 
+      price: "5.00"
+    },
+
+    { 
       id: 3, 
       category: 'SALLATA', 
       title: "Sallatë Crunchy", 

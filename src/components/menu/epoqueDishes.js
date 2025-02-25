@@ -29,6 +29,15 @@ const epoqueDishes = [
     },
 
     { 
+      id: 12, 
+      category: 'EPOQUE DISHES', 
+      title: "Epoque Wrap", 
+      subItems: ["Mish pule me salcë kremoze dhe perime të freskëta, i mbështjellur me petë. Shoqërohet me pasta me salcë të domateve dhe chips."], 
+      image: image1, 
+      price: "5.90"
+    },
+
+    { 
       id: 4, 
       category: 'EPOQUE DISHES', 
       title: "Pulë Mediterane me Oriz dhe Mozarella", 
@@ -44,6 +53,14 @@ const epoqueDishes = [
       subItems: ["Copëza të mishit të pulës me spinaq të freskët, i shoqëruar me salcë kremoze me këpurdha, spec të kuq dhe parmixhan"], 
       image: image1, 
       price: "6.50"
+    },
+    { 
+      id: 13, 
+      category: 'EPOQUE DISHES', 
+      title: "KARKALECA NË TAVË", 
+      subItems: ["Karkalecë të freskët me salcë të pasur me domate, hudhër, erëza mesdhetare dhe parmixhan."], 
+      image: image1, 
+      price: "8.50"
     },
 
     { 
@@ -73,32 +90,32 @@ const epoqueDishes = [
       price: "8.30"
     },
 
-    { 
-      id: 9, 
-      category: 'EPOQUE DISHES', 
-      title: "Biftek Provencal", 
-      subItems: ["Biftek i gatuar me spec,kungulleshe, patellxhan dhe salcë provencale."], 
-      image: image1, 
-      price: "15.00"
-    },
+    // { 
+    //   id: 9, 
+    //   category: 'EPOQUE DISHES', 
+    //   title: "Biftek Provencal", 
+    //   subItems: ["Biftek i gatuar me spec,kungulleshe, patellxhan dhe salcë provencale."], 
+    //   image: image1, 
+    //   price: "15.00"
+    // },
 
-    { 
-      id: 10, 
-      category: 'EPOQUE DISHES', 
-      title: "Biftek Rukolë Spinaq", 
-      subItems: ["Biftek i shoqëruar me pure spinaqidhe rukolë të freskët."], 
-      image: image1, 
-      price: "16.50"
-    },
+    // { 
+    //   id: 10, 
+    //   category: 'EPOQUE DISHES', 
+    //   title: "Biftek Rukolë Spinaq", 
+    //   subItems: ["Biftek i shoqëruar me pure spinaqidhe rukolë të freskët."], 
+    //   image: image1, 
+    //   price: "16.50"
+    // },
 
-    { 
-      id: 11, 
-      category: 'EPOQUE DISHES', 
-      title: "Biftek Lyonnaise", 
-      subItems: ["Biftek me qepë të karamelizuara në stilin Lyonnaise, patate dhe salcë e butë me verë të kuqe."], 
-      image: image1, 
-      price: "16.00"
-    },
+    // { 
+    //   id: 11, 
+    //   category: 'EPOQUE DISHES', 
+    //   title: "Biftek Lyonnaise", 
+    //   subItems: ["Biftek me qepë të karamelizuara në stilin Lyonnaise, patate dhe salcë e butë me verë të kuqe."], 
+    //   image: image1, 
+    //   price: "16.00"
+    // },
 
   ];
 

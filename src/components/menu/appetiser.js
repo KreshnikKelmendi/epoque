@@ -13,8 +13,8 @@ const appetiser = [
     { 
       id: 2, 
       category: 'STARTERS',
-      title: "Brusketa Klasike", 
-      subItems: ["Feta buke të thekura", "me një përzierje të freskët domatesh", "Hudhër", "Vaj ulliri dhe gjethe bazil"], 
+      title: "Brusketa Epoque", 
+      subItems: ["Feta buke të thekura", "me një përzierje të freskët domatesh", "Hudhër", "Vaj ulliri dhe salcë baziliku."], 
       image: image1, 
       price: "4.50"
     },
@@ -53,19 +53,36 @@ const appetiser = [
       image: image1, 
       price: "6.00"
     },
+
+    { 
+      id: 9, 
+      category: 'STARTERS', 
+      title: "Karkalec në kadaif", 
+      subItems: ["Karkalecë të mbështjellur në kadaif, me salcë kremoze."], 
+      image: image1, 
+      price: "6.00"
+    },
+
+    { 
+      id: 10, 
+      category: 'STARTERS', 
+      title: "Chicken Fingers", 
+      image: image1, 
+      price: "6.00"
+    },
     { 
       id: 7, 
       category: 'STARTERS', 
       title: "Meze e ftohtë", 
       image: image1, 
-      price: "8.00"
+      price: "9.00"
     },
     {
       id: 8, 
       category: 'STARTERS', 
       title: "Meze e ngrohtë", 
       image: image1, 
-      price: "14.00"
+      price: "15.00"
     }
 
   ];

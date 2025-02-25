@@ -16,16 +16,25 @@ const pasta = [
       title: "Penne me Pulë dhe Spinaq", 
       subItems: ["Penne me fileto pule, spinaq të freskët dhe krem qumështi, djath parmixhan dhe piper të zi."], 
       image: image1, 
-      price: "4.50"
+      price: "4.90"
     },
 
     { 
       id: 4, 
       category: 'Pasta & Risotto', 
-      title: "Pene Al pesto", 
+      title: "Penne Al pesto", 
       subItems: ["Penne me salcë të freskët pesto, djath parmixhan dhe domate të thata"], 
       image: image1, 
       price: "4.80"
+    },
+
+    { 
+      id: 13, 
+      category: 'Pasta & Risotto', 
+      title: "Penne Brokoli", 
+      subItems: ["Penne me brokoli të freskët, vaj hudhre, parmixhan të shkrirë dhe ullinj."], 
+      image: image1, 
+      price: "4.50"
     },
 
     { 
@@ -43,7 +52,7 @@ const pasta = [
       title: "Linguini me Karkaleca", 
       subItems: ["Linguini me karkaleca dhe kunguj të zier, salcë me hudhër dhe vaj ulliri, djath parmixhan."], 
       image: image1, 
-      price: "6.50"
+      price: "7.00"
     },
 
     { 
@@ -52,7 +61,7 @@ const pasta = [
       title: "Penne me Salmon & Brokoli", 
       subItems: ["Penne me salmon, brokoli dhe domate të freskëta, krem djathi."], 
       image: image1, 
-      price: "6.50"
+      price: "7.00"
     },
 
     { 
@@ -83,13 +92,22 @@ const pasta = [
     },
 
     { 
-      id: 11, 
+      id: 14, 
       category: 'Pasta & Risotto', 
-      title: "Risotto Kërpudha & Spinaq", 
-      subItems: ["Risotto kremoz me kërpudha të freskëta dhe spinaq të njomë."], 
+      title: "Risotto Pulë & Spinaq", 
+      subItems: ["Risotto kremoz me fileto pule dhe spinaq të njomë."], 
       image: image1, 
-      price: "4.50"
+      price: "5.00"
     },
+
+    // { 
+    //   id: 11, 
+    //   category: 'Pasta & Risotto', 
+    //   title: "Risotto Kërpudha & Spinaq", 
+    //   subItems: ["Risotto kremoz me kërpudha të freskëta dhe spinaq të njomë."], 
+    //   image: image1, 
+    //   price: "4.50"
+    // },
 
     { 
       id: 12, 
@@ -97,7 +115,16 @@ const pasta = [
       title: "Risotto Karkaleca dhe kepurdha ", 
       subItems: ["Risotto i pasur me një përzierje të kërpudhave dhe karkaleca, që ofron një kombinim të shijshëm të tokës dhe detit."], 
       image: image1, 
-      price: "6.00"
+      price: "6.90"
+    },
+
+    { 
+      id: 15, 
+      category: 'Pasta & Risotto', 
+      title: "Risotto me Mish Viqi ", 
+      subItems: ["Risotto me mish viçi me salcë me domatet, spec të kuq dhe parmixhan."], 
+      image: image1, 
+      price: "6.50"
     },
 
   ];

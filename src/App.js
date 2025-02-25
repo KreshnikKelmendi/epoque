@@ -16,6 +16,7 @@ import Coffe from "./components/pages/Coffe";
 import Koktej from "./components/pages/Koktej";
 import ScrollToTopButton from "./components/navbar/ScrollToTopButton";
 import AboutPage from "./components/pages/AboutPage";
+import Desert from "./components/pages/Desert";
 
 
 
@@ -31,6 +32,7 @@ function App() {
             <Route path="/meat" element={<MeatPage />} />
             <Route path="/caffe" element={<Coffe />} />
             <Route path="/koktej" element={<Koktej />} />
+            <Route path="/desert" element={<Desert />} />
             <Route path="/breakfast" element={<BreakfastPage />} />
             <Route path="/starters" element={<AppetiserPage />} />
             <Route path="/sallata" element={<Sallata />} />

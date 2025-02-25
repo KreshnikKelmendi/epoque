@@ -53,15 +53,23 @@ const breakfast = [
       image: image1, 
       price: "3.00"
     },
-
     { 
       id: 8, 
       category: 'BREAKFAST', 
-      title: "Pjatë me Drithra", 
-      subItems: ["Drithra krokante smothie me fruta mali dhe fruta të thata, mollë dhe shirup maple"], 
+      title: "AVOKADO POACHED EGGS", 
+      subItems: ["Vezë të ziera “poached” mbi bukë të thekur, avokado të shtypur dhe salcë balsamiko.",], 
       image: image1, 
-      price: "3.50"
+      price: "3.00"
     },
+
+    // { 
+    //   id: 8, 
+    //   category: 'BREAKFAST', 
+    //   title: "Pjatë me Drithra", 
+    //   subItems: ["Drithra krokante smothie me fruta mali dhe fruta të thata, mollë dhe shirup maple"], 
+    //   image: image1, 
+    //   price: "3.50"
+    // },
 
   ];
 

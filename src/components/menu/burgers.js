@@ -16,6 +16,15 @@ const burgers = [
       title: "Crunchy Burger", 
       subItems: ["Burger me mish pule me shtresë krokante, salcë shtëpie, sallatë iceberg dhe tranguj turshi. Shërbehet me patate dhe salcë."], 
       image: image1, 
+      price: "4.50"
+    },
+
+    { 
+      id: 5, 
+      category: 'Burgers & Sandwiches',
+      title: "Epoque Toast", 
+      subItems: ["Toast me krem djathi, pershut viçi, rukolë të freskët dhe salcë shtëpie. Shërbehet me sallatë rukolë."], 
+      image: image1, 
       price: "4.90"
     },
 
@@ -35,6 +44,14 @@ const burgers = [
       subItems: ["Baguette me biftek të pjekur, qepë të karamelizuara, rukola dhe salcë kremoze me borzilok."], 
       image: image1, 
       price: "5.90"
+    },
+    { 
+      id: 6, 
+      category: 'Burgers & Sandwiches',
+      title: "Chicken Baguette", 
+      subItems: ["Baguette me fileto pule, mozzarella të shkrirë, rukolë të freskët, domate dhe salcë pesto."], 
+      image: image1, 
+      price: "4.90"
     },
   ];
 

@@ -15,7 +15,7 @@ const items = [
       id: 3, 
       text: 'See More', 
       title: "BREAKFAST", 
-      subItems: ["Croissant", "Avokado Tost", "Royal Eggs", 'Mëngjesi Epoque', 'Omletë Mediterrane', "Sweet French Toast", "Pjatë me Drithra"], 
+      subItems: ["Croissant", "Avokado Tost", "Royal Eggs", 'Mëngjesi Epoque', 'Omletë Mediterrane', "Sweet French Toast", "AVOCADO POACHED EGGS"], 
       image: image1, 
       link: "/breakfast" 
     },
@@ -24,7 +24,7 @@ const items = [
       id: 4, 
       text: 'See More',
       title: "STARTERS", 
-      subItems: ["Cheese sticks", "Brusketa Klasike", "Brusketa me salmon të tymosur", 'Këpurdha në Furrë', 'Djath në Furrë', "Tacos me karkalec", "Meze e ftohtë","Meze e ngrohtë "], 
+      subItems: ["Cheese sticks", "Brusketa Klasike", "Brusketa me salmon të tymosur", 'Këpurdha në Furrë', 'Djath në Furrë', "Tacos me karkalec", "Karkalec në kadaif", "Chicken fingers", "Meze e ftohtë","Meze e ngrohtë "], 
       image: image1, 
       link: "/starters" 
     },
@@ -42,7 +42,7 @@ const items = [
       id: 6, 
       text: 'See More', 
       title: "Pasta & Risotto", 
-      subItems: ["Tagliatelle Caffè & Formaggio", "Penne me Pulë dhe Spinaq", "Penne al Pesto", "Paccheri alla Sorrentina", "Linguini me Karkaleca", "Penne me Salmon & Brokoli", "Tagliatelle Amatriciana", "Risotto Primavera", "Risotto Gorgonzola & Kërpudha ", "Risotto Kërpudha & Spinaq ", "Risotto Karkaleca dhe kepurdha"], 
+      subItems: ["Tagliatelle Caffè & Formaggio", "Penne me Pulë dhe Spinaq", "Penne al Pesto", "Paccheri alla Sorrentina", "Linguini me Karkaleca", "Penne me Salmon & Brokoli", "Tagliatelle Amatriciana", "Risotto Primavera", "Risotto Gorgonzola & Kërpudha ", "Risotto Pulë & Spinaq", "Risotto Karkaleca dhe kepurdha", "Risotto me Mish Viqi"], 
       image: image1, 
       link: "/pasta" 
     },
@@ -60,7 +60,7 @@ const items = [
       id: 8, 
       text: 'See More', 
       title: "Epoque Dishes", 
-      subItems: ["Pulë Masala & Tagliatelle · Pulë Crunchy & Tagliatelle · Pulë Crunchy & Risotto · Pulë Mediterane me Oriz dhe Mozarella · Pulë Sauté me Spinaq · Mish Viçi me Këpurdha · Mish Viçi në Furrë · Mish Viçi me Pure Spinaqi · Biftek Provencal · Biftek Rukolë Spinaq · Biftek Lyonnaise"], 
+      subItems: ["Pulë Masala & Tagliatelle · Pulë Crunchy & Tagliatelle · Pulë Crunchy & Risotto · Epoque Wrap · Pulë Mediterane me Oriz dhe Mozarella · Pulë Sauté me Spinaq · Karkaleca në Tavë · Mish Viçi me Këpurdha · Mish Viçi në Furrë · Mish Viçi me Pure Spinaqi"], 
       image: image1, 
       link: "/epoque-dishes" 
     },
@@ -71,6 +71,15 @@ const items = [
       subItems: ["Mojito, Strawberry Mojito, Margarita, Cosmopolitan, Espresso Martini, French 75, Champs Elysees, Aperol Spritz, Vodka Passion, Whiskey Sour, Negroni, Black Russian, Americano, Sex on the Beach, Long Island Ice Tea, Japanese Ice Tea, Blue Hawaiian, Bahama Mama, Green Cocktail,Pina Colada "], 
       image: image1, 
       link: "/koktej" 
+    },
+
+    { 
+      id: 9, 
+      text: 'See More', 
+      title: "Desert", 
+      subItems: ["Ëmbëlsirë"], 
+      image: image1, 
+      link: "/desert" 
     },
 
   ];
