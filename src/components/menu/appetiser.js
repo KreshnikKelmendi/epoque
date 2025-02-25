@@ -7,7 +7,7 @@ const appetiser = [
       title: "Cheese sticks", 
       subItems: ["Petë krokante të mbushura me djathë, shërbehen me mjaltë."], 
       image: image1, 
-      price: "3.00"
+      price: "4.00"
     },
 
     { 
@@ -43,7 +43,7 @@ const appetiser = [
       title: "Djath në Furrë", 
       subItems: ["Djath i ngrohtë dhe i butë", "", "i pjekur në furrë me hudhër dhe rozmarinë", "i shërbyer me fetat e bukës së thekur"], 
       image: image1, 
-      price: "3.50"
+      price: "4.50"
     },
     { 
       id: 6, 
