@@ -12,7 +12,7 @@ const breakfast = [
     { 
       id: 2, 
       category: 'BREAKFAST',
-      title: "Avokado Tost", 
+      title: "Avocado Toast", 
       subItems: ["Bukë integrale e thekur me avokado të freskët, Këpurdha, Fruta të thata, Rukola, Limon dhe piper të zi"], 
       image: image1, 
       price: "3.50"
