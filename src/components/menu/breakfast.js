@@ -59,7 +59,7 @@ const breakfast = [
       title: "AVOKADO POACHED EGGS", 
       subItems: ["Vezë të ziera “poached” mbi bukë të thekur, avokado të shtypur dhe salcë balsamiko.",], 
       image: image1, 
-      price: "3.00"
+      price: "4.00"
     },
 
     // { 

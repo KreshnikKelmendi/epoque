@@ -78,7 +78,7 @@ const epoqueDishes = [
       title: "Mish Viçi në Furrë", 
       subItems: ["Mish viçi i pjekur në furrë me perime të ndryshme dhe djathë të shkrirë."], 
       image: image1, 
-      price: "8.90"
+      price: "8.50"
     },
 
     { 
